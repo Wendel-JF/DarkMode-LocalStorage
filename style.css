@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+ :root {
+  --bg-color: rgb(36, 34, 34);
+  --border-color: #666;
+  --font-color: #f1f5f9;
+  --primary-color: #4dff91;
+  --error-color: #ff0043;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+} 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  min-height: 100vh;
+}
+
+#themeSwitcher {
+  background-color: var(--bg-color);
+  border: .125rem solid var(--font-color);
+  color: var(--font-color);
+  cursor:pointer;
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 0.5s linear;
+}
+
+ 
+.switch {
+  border-radius: 230px;
+  background-color: var(--font-color);
+  width: 130px;
+  padding: 5px;
+  
+}
+
+
+.right {
+  transform: translateX(68px);
+}
+
