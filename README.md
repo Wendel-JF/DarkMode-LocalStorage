@@ -1,4 +1,4 @@
 # DarkMode-LocalStorage
-  Modo Escuro Usando Loca Estorage 
+  Modo Escuro Usando Local Estorage 
 
   Dark Mode Using Local Storage
